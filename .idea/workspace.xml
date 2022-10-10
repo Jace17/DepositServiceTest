@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DepositServiceExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DepositServiceTest.java" afterDir="false" />
+    <list default="true" id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +65,16 @@
       <recent name="com.jacelendro.deposit.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepositServiceTest.monthlyPlanOnly">
-    <configuration name="DepositServiceExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jacelendro.deposit.Main" />
       <module name="DepositPlanCase" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DepositServiceExceptionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacelendro.deposit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DepositServiceTest.monthlyPlanOnly" />
         <item itemvalue="JUnit.DepositServiceTest.threePortfolios" />
         <item itemvalue="JUnit.DepositServiceTest" />
         <item itemvalue="JUnit.DepositServiceTest.whenNoDeposits" />
-        <item itemvalue="JUnit.DepositServiceExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,8 +142,16 @@
       <workItem from="1665410198385" duration="623000" />
       <workItem from="1665410832321" duration="24000" />
       <workItem from="1665410865556" duration="11780000" />
-      <workItem from="1665423405168" duration="7589000" />
+      <workItem from="1665423405168" duration="9108000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1665431287067</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665431287067</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

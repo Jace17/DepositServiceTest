@@ -1,14 +1,18 @@
 package com.jacelendro.deposit;
 
 import com.jacelendro.deposit.model.*;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;
 
-@Slf4j
+
 public class DepositService {
+    private static final Logger log
+            = LoggerFactory.getLogger(DepositService.class);
+
     public static Customer processDeposits(List<DepositPlan> depositPlans, List<BigDecimal> deposits) {
         validateProcessDepositsInput(depositPlans, deposits);
 
@@ -45,11 +49,11 @@ public class DepositService {
 
         if(deposits!=null) {
             deposits.forEach(deposit -> {
-                log.info("Processing deposit: " + deposit);
+                log.info("Processing deposit: $" + deposit);
 
                 processDeposit(customer, deposit);
 
-                log.info("Portfolio amounts: " + customer.getPortfolios());
+                log.info("Portfolio amounts: \n" + customer);
             });
         }
 

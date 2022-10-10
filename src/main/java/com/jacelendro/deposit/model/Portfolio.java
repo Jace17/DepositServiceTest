@@ -1,13 +1,30 @@
 package com.jacelendro.deposit.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-
 import java.math.BigDecimal;
 
-@Data
-@AllArgsConstructor
+
 public class Portfolio {
     private String name;
     private BigDecimal amount;
+
+    public Portfolio(String name, BigDecimal amount) {
+        this.name = name;
+        this.amount = amount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
 }

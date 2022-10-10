@@ -29,6 +29,6 @@ public class Main {
         deposits.add(new BigDecimal((100)));
 
         Customer customer = DepositService.processDeposits(depositPlans, deposits);
-        log.info("Portfolio amounts: " + customer.getPortfolios());
+        log.info("Portfolio amounts: " + customer);
     }
 }
