@@ -3,14 +3,17 @@ package com.jacelendro.deposit;
 import com.jacelendro.deposit.model.Customer;
 import com.jacelendro.deposit.model.DepositPlan;
 import com.jacelendro.deposit.model.DepositPlanType;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-@Slf4j
 public class Main {
+    private static final Logger log
+            = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) {
         DepositPlan oneTime = new DepositPlan(DepositPlanType.ONE_TIME);
         oneTime.addAllocation("High risk", new BigDecimal(10000));
