@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="Initial Commit">
+    <list default="true" id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="Removed lombok dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +136,7 @@
       <workItem from="1665410198385" duration="623000" />
       <workItem from="1665410832321" duration="24000" />
       <workItem from="1665410865556" duration="11780000" />
-      <workItem from="1665423405168" duration="9108000" />
+      <workItem from="1665423405168" duration="10050000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1665431287067</created>
@@ -151,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665431287067</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed lombok dependency">
+      <created>1665433047858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665433047858</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed lombok dependency">
+      <created>1665433113733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665433113733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +177,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Removed lombok dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed lombok dependency" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
