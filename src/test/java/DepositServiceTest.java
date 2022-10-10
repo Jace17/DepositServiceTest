@@ -85,14 +85,14 @@ class DepositServiceTest {
     }
 
     @Test
-    @DisplayName("Three Portfolios")
+    @DisplayName("Monthly Plan Only")
     void monthlyPlanOnly () {
         DepositPlan monthly = new DepositPlan(DepositPlanType.MONTHLY);
         monthly.addAllocation("High risk", new BigDecimal(200));
         monthly.addAllocation("Medium risk", new BigDecimal(500));
         monthly.addAllocation("Retirement", new BigDecimal(300));
 
-        List<DepositPlan> depositPlans = new ArrayList<>();;
+        List<DepositPlan> depositPlans = new ArrayList<>();
         depositPlans.add(monthly);
 
         List<BigDecimal> deposits = new ArrayList<>();
@@ -105,5 +105,28 @@ class DepositServiceTest {
         assertEquals(new BigDecimal(2000), customer.getPortfolios().get("High risk").getAmount());
         assertEquals(new BigDecimal(5000), customer.getPortfolios().get("Medium risk").getAmount());
         assertEquals(new BigDecimal(3000), customer.getPortfolios().get("Retirement").getAmount());
+    }
+
+    @Test
+    @DisplayName("One Time Plan Only")
+    void OneTimePlanOnly() {
+        DepositPlan monthly = new DepositPlan(DepositPlanType.ONE_TIME);
+        monthly.addAllocation("High risk", new BigDecimal(500));
+        monthly.addAllocation("Medium risk", new BigDecimal(1000));
+        monthly.addAllocation("Retirement", new BigDecimal(500));
+
+        List<DepositPlan> depositPlans = new ArrayList<>();
+        depositPlans.add(monthly);
+
+        List<BigDecimal> deposits = new ArrayList<>();
+        deposits.add(new BigDecimal(1000));
+        deposits.add(new BigDecimal((2000)));
+        deposits.add(new BigDecimal((3000)));
+        deposits.add(new BigDecimal((200)));
+
+        Customer customer = DepositService.processDeposits(depositPlans, deposits);
+        assertEquals(new BigDecimal(1550), customer.getPortfolios().get("High risk").getAmount());
+        assertEquals(new BigDecimal(3100), customer.getPortfolios().get("Medium risk").getAmount());
+        assertEquals(new BigDecimal(1550), customer.getPortfolios().get("Retirement").getAmount());
     }
 }

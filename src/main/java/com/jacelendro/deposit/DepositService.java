@@ -47,7 +47,7 @@ public class DepositService {
             });
         });
 
-        if(deposits!=null) {
+        if (deposits != null) {
             deposits.forEach(deposit -> {
                 log.info("Processing deposit: $" + deposit);
 
@@ -76,9 +76,9 @@ public class DepositService {
             final BigDecimal allocationTotal = oneTimePlan.getAllocations().values().stream()
                     .filter(d -> !d.isCompleted())
                     .map(DepositPlanAllocation::getAmount).reduce(BigDecimal.ZERO, BigDecimal::add);
-            final BigDecimal remainingDeposit = BigDecimal.ZERO;
+            BigDecimal remainingDeposit = BigDecimal.ZERO;
 
-            portfolioNames.forEach(n -> {
+            for (String n : portfolioNames) {
                 final DepositPlanAllocation allocation = oneTimePlan.getAllocations().get(n);
                 final Portfolio portfolio = customer.getPortfolios().get(n);
 
@@ -92,11 +92,11 @@ public class DepositService {
                     // If amount to allocate would exceed the plan, carry over
                     portfolio.setAmount(maxAllocation);
                     allocation.setCompleted(true);
-                    remainingDeposit.add(amountToAllocate.add(portfolioAmount).subtract(maxAllocation));
+                    remainingDeposit = remainingDeposit.add(amountToAllocate.add(portfolioAmount).subtract(maxAllocation));
                 } else {
                     portfolio.setAmount(amountToAllocate.add(portfolioAmount));
                 }
-            });
+            }
 
             // Check if all allocations have been completed, then mark the deposit plan as completed
             boolean completed = true;
