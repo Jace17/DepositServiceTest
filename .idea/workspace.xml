@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/DepositService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/DepositPlanType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jacelendro/deposit/model/Portfolio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DepositServiceExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DepositServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Fwbkb3gvsAh2Uv4KyxGXaEUc2v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.jacelendro.deposit" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jacelendro.deposit.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DepositServiceTest.monthlyPlanOnly">
+    <configuration name="DepositServiceExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositPlanCase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositServiceExceptionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositPlanCase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositServiceTest.monthlyPlanOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositPlanCase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositServiceTest" />
+      <option name="METHOD_NAME" value="monthlyPlanOnly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositServiceTest.threePortfolios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositPlanCase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositServiceTest" />
+      <option name="METHOD_NAME" value="threePortfolios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositServiceTest.whenNoDeposits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepositPlanCase" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DepositServiceTest" />
+      <option name="METHOD_NAME" value="whenNoDeposits" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DepositServiceTest.monthlyPlanOnly" />
+        <item itemvalue="JUnit.DepositServiceTest.threePortfolios" />
+        <item itemvalue="JUnit.DepositServiceTest" />
+        <item itemvalue="JUnit.DepositServiceTest.whenNoDeposits" />
+        <item itemvalue="JUnit.DepositServiceExceptionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99af6a98-5935-4fff-a21e-e8281bc1d635" name="Changes" comment="" />
+      <created>1665406247197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665406247197</updated>
+      <workItem from="1665406248797" duration="72000" />
+      <workItem from="1665406329672" duration="1147000" />
+      <workItem from="1665407492639" duration="2690000" />
+      <workItem from="1665410198385" duration="623000" />
+      <workItem from="1665410832321" duration="24000" />
+      <workItem from="1665410865556" duration="11780000" />
+      <workItem from="1665423405168" duration="7589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
